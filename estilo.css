@@ -41,4 +41,8 @@ font-family: 'Courier New', Courier, monospace;
     color: white;
     opacity: 0.5;
 }
-
+.logo {
+    min-height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
