@@ -1,17 +1,18 @@
 @charset "utf-8";
+
 body {
-background-image: url('test2.jpg');
-background-size: cover;
-color: #ffffff;
-font-family: Arial, Verdana, sans-serif;
+    background-image: url('test2.jpg');
+    background-size: cover;
+    color: #ffffff;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 footer {
-background-color: #333333;
-color:white;
-font-size: .75em;
-font-style: italic;
-font-family: 'Courier New', Courier, monospace;
+    background-color: #333333;
+    color: white;
+    font-size: .75em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .buttons {
@@ -26,21 +27,24 @@ font-family: 'Courier New', Courier, monospace;
     margin-right: 8px;
     font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.7s, 
-    color 0.7s, box-shadow 0.7s;
-    
+    transition: background-color 0.7s,
+        color 0.7s, box-shadow 0.7s;
+
 }
+
 .buttons:hover {
     background-color: black;
     color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    
+
 }
+
 .buttons:active {
     background-color: black;
     color: white;
     opacity: 0.5;
 }
+
 .logo {
     min-height: 70px;
     max-width: 70px;
